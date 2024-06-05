@@ -478,6 +478,8 @@ button {
 }
 
 .footer-container {
+    display: flex;
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -512,13 +514,11 @@ button {
     width: 40px;
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: 120px;
 }
 
 
 .footer-social-media-conteiner {
-display: flex;
-    align-items: baseline;
-    margin-right: 120px
 }
 
 .footer-socmedia-paragraf {
@@ -536,7 +536,8 @@ display: flex;
 }
 
 .footer-soclist-item {
-
+    width: 40px;
+    height: 40px;
 }
 
 .footer-soclist-link {
