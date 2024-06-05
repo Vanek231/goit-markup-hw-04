@@ -539,7 +539,6 @@ button {
 .footer-soclist-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soclist-link {
@@ -550,6 +549,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soclist-link:hover {
