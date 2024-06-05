@@ -417,9 +417,14 @@ button {
 
 
 .our-portfolio-item:hover .our-portfolio-container-paragraf{
-        transform: translateY(0%);
+    transform: translateY(0%);
 }
 
+.our-portfolio-photo-container {
+    position: relative;
+    overflow: hidden;
+}
+ 
 .our-portfolio-item-img {}
 
 .our-portfolio-item-img:hover {
@@ -440,15 +445,11 @@ button {
     width: 100%;
 }
 
-
-
 .our-portfolio-app-container{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-    position: relative;
-    overflow: hidden;
 }
 
 
@@ -469,8 +470,6 @@ button {
     color: #434455;
 }
 
-.our-portfolio-paragraf:hover {
-}
 
 /* FOOTER */
 .footer {
