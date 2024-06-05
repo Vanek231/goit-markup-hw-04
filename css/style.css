@@ -108,7 +108,8 @@ button {
 }
 
 .first-menu-link {
-
+    color: #404bbf;
+    position: relative;
 }
 
 .first-menu-link::after {
